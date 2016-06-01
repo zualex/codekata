@@ -9,5 +9,6 @@ reverseInt(13); // 31
 reverseInt(-123); // -321
 ```
 
-## Decision
+## Decisions
 - [JavaScript](javascript.md)
+- [PHP](php.md)
