@@ -1,4 +1,4 @@
-# Invert case - decision on javascript
+# Invert case - decision on JavaScript
 
 ### [return to task](README.md)
 

@@ -1,4 +1,4 @@
-# Formatted time - decision on javascript
+# Formatted time - decision on JavaScript
 
 ### [return to task](README.md)
 
@@ -11,7 +11,7 @@ const getTime = (allMinutes) => {
 
   const formattedHoures = ('0' + hour).slice(-2);
   const formattedMinutes = ('0' + minute).slice(-2);
-    
+
   return formattedHoures + ':' + formattedMinutes;
 }
 ```

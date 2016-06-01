@@ -1,4 +1,4 @@
-# Happy number - decision on javascript
+# Happy number - decision on JavaScript
 
 ### [return to task](README.md)
 

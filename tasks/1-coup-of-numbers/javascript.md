@@ -1,4 +1,4 @@
-# Coup of numbers - decision on javascript
+# Coup of numbers - decision on JavaScript
 
 ### [return to task](README.md)
 
