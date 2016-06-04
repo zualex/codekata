@@ -4,13 +4,13 @@
 
 ```javascript
 const isPowerOfThree = (num) => {
-    const iter = (num, pow) => {
-        if(num === 1) return true;
-        if(num % pow !== 0) return false
+  const iter = (num, pow) => {
+    if(num === 1) return true;
+    if(num % pow !== 0) return false
 
-        return iter(num / pow, pow);
-    }
+    return iter(num / pow, pow);
+  }
 
-    return iter (num, 3);
+  return iter (num, 3);
 };
 ```
