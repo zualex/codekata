@@ -9,5 +9,6 @@ invertCase('Hello, World!') // hELLO, wORLD!
 invertCase('I loVe JS') // i LOvE js
 ```
 
-## Decision
+## Decisions
 - [JavaScript](javascript.md)
+- [PHP](php.md)
