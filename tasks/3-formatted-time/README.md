@@ -12,5 +12,6 @@ getTime(175); // 02:55
 getTime(67); // 01:07
 ```
 
-## Decision
+## Decisions
 - [JavaScript](javascript.md)
+- [PHP](php.md)
