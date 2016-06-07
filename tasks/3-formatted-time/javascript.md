@@ -4,14 +4,12 @@
 
 ```javascript
 const getTime = (allMinutes) => {
-  const minutesInHour = 60;
+  const hour = Math.floor(allMinutes / 60);
+  const minute = allMinutes % 60;
 
-  const hour = Math.floor(allMinutes / minutesInHour);
-  const minute = allMinutes % minutesInHour;
-
-  const formattedHoures = ('0' + hour).slice(-2);
+  const formattedHours = ('0' + hour).slice(-2);
   const formattedMinutes = ('0' + minute).slice(-2);
 
-  return formattedHoures + ':' + formattedMinutes;
+  return formattedHours + ':' + formattedMinutes;
 }
 ```
