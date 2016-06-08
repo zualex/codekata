@@ -1,7 +1,7 @@
 # The sum of binary numbers
 
 ## Purpose
-Implement function `binarySum` which adds the transmitted binary numbers (as strings):
+Implement function `binarySum` which adds the transmitted binary numbers (as strings).
 
 ## Example
 ```javascript
