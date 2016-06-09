@@ -10,5 +10,6 @@ factorial(5); // 5 * 4 * 3 * 2 * 1 = 120
 factorial(0); // 1
 ```
 
-## Decision
+## Decisions
 - [JavaScript](javascript.md)
+- [PHP](php.md)
