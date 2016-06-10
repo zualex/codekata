@@ -5,8 +5,8 @@
 ```javascript
 const isPowerOfThree = (num) => {
   const iter = (num, pow) => {
-    if(num === 1) return true;
-    if(num % pow !== 0) return false
+    if (num === 1) return true;
+    if (num % pow !== 0) return false
 
     return iter(num / pow, pow);
   }

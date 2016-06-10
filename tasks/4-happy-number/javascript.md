@@ -16,8 +16,8 @@ const happyNumber = (num, callCount = 0) => {
   };
 
   const iter = (num, start, end) => {
-    if(start === end){ return false; }
-    if(num === 1){ return true; }
+    if (start === end) return false;
+    if (num === 1) return true;
 
     return iter(sumDigits(num), start + 1, end);
   };

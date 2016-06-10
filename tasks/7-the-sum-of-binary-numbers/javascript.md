@@ -10,10 +10,10 @@ const binarySum = (a, b) => {
       'save': '0'
     };
 
-    if(symbolA + symblolB === '00') res['sum'] = '0';
-    if(symbolA + symblolB === '01') res['sum'] = '1';
-    if(symbolA + symblolB === '10') res['sum'] = '1';
-    if(symbolA + symblolB === '11') {
+    if (symbolA + symblolB === '00') res['sum'] = '0';
+    if (symbolA + symblolB === '01') res['sum'] = '1';
+    if (symbolA + symblolB === '10') res['sum'] = '1';
+    if (symbolA + symblolB === '11') {
       res['sum'] = '0';
       res['save'] = '1';
     }
@@ -32,13 +32,13 @@ const binarySum = (a, b) => {
     let symbolB = reversB[i] || '0';
 
     let sumSymbol = sum(symbolA, symbolB);
-    if(save === '1') sumSymbol = sum(sumSymbol['sum'], save);
+    if (save === '1') sumSymbol = sum(sumSymbol['sum'], save);
 
     save = sumSymbol['save'];
     reversRes += sumSymbol['sum'];
   }
 
-  if(save === '1') reversRes += save;
+  if (save === '1') reversRes += save;
 
   const result = reversRes.split('').reverse().join('');
   return result;

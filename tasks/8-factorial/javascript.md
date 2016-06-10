@@ -8,6 +8,6 @@ const factorial = (n) => {
     return n > 1 ? iter(n - 1, n * acc) : acc;
   };
 
-  return iter (n, 1);
+  return iter(n, 1);
 }
 ```
