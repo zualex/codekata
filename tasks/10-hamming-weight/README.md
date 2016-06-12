@@ -12,5 +12,5 @@ hammingWeight(4); // 1
 hammingWeight(101); // 4
 ```
 
-## Decisions
+## Decision
 - [JavaScript](javascript.md)

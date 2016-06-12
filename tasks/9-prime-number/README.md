@@ -10,5 +10,5 @@ isPrime(7); // true
 isPrime(10); // false
 ```
 
-## Decisions
+## Decision
 - [JavaScript](javascript.md)
