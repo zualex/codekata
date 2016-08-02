@@ -3,7 +3,7 @@
 ### [return to task](README.md)
 
 ```javascript
-const getTime = (allMinutes) => {
+const getTime = allMinutes => {
   const hour = Math.floor(allMinutes / 60);
   const minute = allMinutes % 60;
 

@@ -3,7 +3,7 @@
 ### [return to task](README.md)
 
 ```javascript
-const invertCase = (str) => {
+const invertCase = str => {
   let invertStr = '';
   const length = str.length;
 

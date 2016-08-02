@@ -3,7 +3,7 @@
 ### [return to task](README.md)
 
 ```javascript
-const isPowerOfThree = (num) => {
+const isPowerOfThree = num => {
   const iter = (num, pow) => {
     if (num === 1) return true;
     if (num % pow !== 0) return false

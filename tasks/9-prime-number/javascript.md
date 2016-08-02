@@ -3,7 +3,7 @@
 ### [return to task](README.md)
 
 ```javascript
-const isPrime = (n) => {
+const isPrime = n => {
   if (n < 2) return false;
 
   const half = n / 2;

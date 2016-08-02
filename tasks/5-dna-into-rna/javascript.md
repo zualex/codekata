@@ -3,7 +3,7 @@
 ### [return to task](README.md)
 
 ```javascript
-const toRna = (dna) => {
+const toRna = dna => {
   let rna = '';
   const length = dna.length;
 

@@ -3,7 +3,7 @@
 ### [return to task](README.md)
 
 ```javascript
-const reverseInt = (num) => {
+const reverseInt = num => {
   const str = String(Math.abs(num));
   let reversedStr = '';
 

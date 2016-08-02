@@ -3,7 +3,7 @@
 ### [return to task](README.md)
 
 ```javascript
-const factorial = (n) => {
+const factorial = n => {
   const iter = (n, acc) => {
     return n > 1 ? iter(n - 1, n * acc) : acc;
   };
