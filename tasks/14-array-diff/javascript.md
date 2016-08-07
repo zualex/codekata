@@ -3,5 +3,5 @@
 ### [return to task](README.md)
 
 ```javascript
-cont arrayDiff = (a, b) => a.filter(item => !b.includes(item))
+const arrayDiff = (a, b) => a.filter(item => !b.includes(item))
 ```
