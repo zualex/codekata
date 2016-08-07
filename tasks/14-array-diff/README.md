@@ -14,3 +14,4 @@ arrayDiff([1,2,2], []); // [1,2,2]
 
 ## Decision
 - [JavaScript](javascript.md)
+- [Python](python.md)
