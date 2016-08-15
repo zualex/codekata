@@ -12,3 +12,4 @@ reverseInt(-123); // -321
 ## Decisions
 - [JavaScript](javascript.md)
 - [PHP](php.md)
+- [Pyhton](python.md)
